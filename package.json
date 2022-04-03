@@ -1,5 +1,5 @@
 {
-  "name": "mantine-next-template",
+  "name": "holospace",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -19,29 +19,32 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "@mantine/core": "4.1.1",
+    "@mantine/core": "^4.1.1",
     "@mantine/dates": "4.1.1",
-    "@mantine/hooks": "4.1.1",
-    "@mantine/next": "4.1.1",
+    "@mantine/hooks": "^4.1.1",
+    "@mantine/next": "^4.1.2",
     "@mantine/notifications": "4.1.1",
     "@mantine/prism": "4.1.1",
     "@modulz/radix-icons": "^4.0.0",
+    "better-sqlite3": "^7.5.0",
     "cookies-next": "^2.0.4",
     "dayjs": "^1.11.0",
     "next": "12.1.4",
     "prism-react-renderer": "^1.3.1",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "tabler-icons-react": "^1.43.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@next/bundle-analyzer": "^12.1.4",
     "@next/eslint-plugin-next": "^12.1.4",
-    "@storybook/react": "^6.4.20",
+    "@storybook/react": "^6.1.21",
     "@testing-library/dom": "^8.12.0",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^14.0.4",
+    "@types/better-sqlite3": "^7.5.0",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.23",
     "@types/react": "17.0.43",
